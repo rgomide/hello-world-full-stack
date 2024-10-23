@@ -14,7 +14,7 @@
 
 1. Criar o banco de dados com o nome `demo_app` e editar as credenciais de acesso ao banco de dados no arquivo [application.properties](./server/src/main/resources/application.properties).
 2. Abrir o projeto  partir da pasta [server](./server) utilizando a sua IDE de preferência.
-3. Executar o projeto.
+3. Executar o projeto pela IDE ou via terminal com o comando `mvn spring-boot:run`.
 
 ### Frontend
 
