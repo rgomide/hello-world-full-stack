@@ -21,3 +21,9 @@
 1. Abrir o projeto a partir da pasta [mobile](./mobile).
 2. Executar o comando `npm install --force` para instalar as dependências.
 3. Executar o comando `npm run web` para iniciar a aplicação.
+
+## Endpoints
+
+- `GET http://localhost:8080/api/v1/people` - Retorna todas as pessoas cadastradas.
+- `POST http://localhost:8080/api/v1/people` - Cria uma nova pessoa.
+- `DELETE http://localhost:8080/api/v1/people/{id}` - Deleta uma pessoa existente.
