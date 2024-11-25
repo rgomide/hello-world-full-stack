@@ -10,12 +10,14 @@ const HomeScreen = (props) => {
         onPress={() => {
           navigation.navigate('PeopleForm')
         }}
-        title="Go to People Form" />
+        title="Go to People Form"
+      />
       <Button
         onPress={() => {
           navigation.navigate('MusicForm')
         }}
-        title="Go to Music Form" />
+        title="Go to Music Form"
+      />
     </View>
   )
 }
