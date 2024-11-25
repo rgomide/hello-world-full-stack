@@ -5,17 +5,17 @@ import java.util.Date;
 public class MusicVO {
   private Long id;
   private String name;
-  private String filename;
+  private String fileName;
   private Date createdAt;
 
   public MusicVO() {
     this.createdAt = new Date();
   }
 
-  public MusicVO(Long id, String name, String filename) {
+  public MusicVO(Long id, String name, String fileName) {
     this.id = id;
     this.name = name;
-    this.filename = filename;
+    this.fileName = fileName;
     this.createdAt = new Date();
   }
 
@@ -35,12 +35,12 @@ public class MusicVO {
     this.name = name;
   }
 
-  public String getFilename() {
-    return filename;
+  public String getFileName() {
+    return fileName;
   }
 
-  public void setFilename(String filename) {
-    this.filename = filename;
+  public void setFileName(String fileName) {
+    this.fileName = fileName;
   }
 
   public Date getCreatedAt() {

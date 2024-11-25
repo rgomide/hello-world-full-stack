@@ -20,7 +20,7 @@ public class Music {
   private String name;
 
   @Column(name = "filename", nullable = false, length = 255)
-  private String filename;
+  private String fileName;
 
   @Column(name = "created_at", nullable = false)
   private Date createdAt;
@@ -41,12 +41,12 @@ public class Music {
     this.name = name;
   }
 
-  public String getFilename() {
-    return filename;
+  public String getFileName() {
+    return fileName;
   }
 
-  public void setFilename(String filename) {
-    this.filename = filename;
+  public void setFileName(String fileName) {
+    this.fileName = fileName;
   }
 
   public Date getCreatedAt() {
