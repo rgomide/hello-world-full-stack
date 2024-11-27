@@ -21,7 +21,8 @@ const MusicFormScreen = () => {
   }
 
   useEffect(() => {
-    loadData()
+    const runLoadData = async () => { await loadData() }
+    runLoadData()
   }, [])
 
   useEffect(() => {
